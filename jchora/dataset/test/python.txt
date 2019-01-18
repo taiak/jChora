@@ -1,0 +1,69 @@
+Python, Guido Van rossum adlı hollandalı bir programcı tarafından yazılmış bir programlama dilidir. Geliştirilmesine 1990 yılında başlayan Python; C ve C++ gibi programlama dillerine kıyaslarsak şöyle sonuçlar elde edebiliriz.
+
+Daha kolay öğrenilir.
+Program geliştirme sürecini kısaltır yani hızlı yazılır.
+Yukaridaki verilen programlama dillerine aksine ayrı bir derleyici ihtiyaci duymaz.
+Hem daha okunaklı, hem daha temiz kodsal söz dizimine sahiptir.
+Python’un bu ve buna benzer özelliklerinden dolayı, dünya çapında ün sahibi büyük kuruluşlar ( Google, Yahoo! ve Dropbox gibi) bünyelerinde herzaman Python programcılarına ihtiyaç duyuyor.
+
+Mesela pek çok büyük şirketin Python bilen programcılara iş olanağı sunduğu, Python’un baş geliştiricisi Guido Van Rossum‘un 2005 ile 2012 yılları arasında Google’de çaliştığını, 2012 yılının sonlarında doğru ise Dropbox şirketine geçtiğini söylersek, bu programlama dilinin önemi ve geçerliliğini herhalde daha belirgin bir şekilde ortaya çıkaracaktır.
+
+Bu arada Python dilinin, her nekadar Python Programlama dili ile ilgili çoğu görsel malzemeninn üzerine yılan resmi olarak görsek de, Python kelimesi aslında çoğu kişinin zannetiği aksine Piton anlamına gelmiyor. Python programlama dili ismini, Guido Van Rossum’un çok sevdiği Monty Python adlı altı kişilik bir ingiliz komedi grubun Monty Python’s Flying Circus adlı gösterisinden gelmektedir.
+
+python nedir
+
+Neden Python dili ?
+
+Diğer programlama dilleri gibi tahmin edebilceğiniz gibi Python (C,C++,Perl,Ruby ve benzeri gibi) bir programlama dilidir. Tıpkı öteki yazılım dilleri gibi, önünüzde duran kara kutuya yani bilgisayara hükmetmenizi yani yönetmenizi sağlar.
+
+Python dilinin öne çıkaran unsurlardan biri ise bilimsel yöntemlerde kullanılması ve çok hızlı işlem yapmasıdır. Bir başka yönden incelediğimizde Python ile Arduino,Raspi ve benzeri programlamanabilir elektronik kartlar ile harika işler çıkardığını biliyoruz.
+
+Arduino ve Python Örneği
+Paul McWhorter tarafından Python dili üzerinden arduino ile cisim algılama sistemi örneği yaptı. Gerçekten bu video izlediğinizde python’un gücünü biraz daha görebilcekseniz.
+
+Python dilinin yeni nesil, diğer dillerin hatalarını görrek gelişirilmeside büyük bir avantaj olduğu ortaya koymaktadır. Python dilinin bir seçilme sebebi ise şöyle örnekle anlatabiliriz. Örneğin Php dilinin bilen bir kişi Sunucu taraflı php yazılım yapabilir. Fakat Python bilen biri Masa üstü uygulaması ( her işletim sisteminde çalişan ) , Web uygulaması ( Her ortamda çalişan ve açık kaynaklı ) , Mobil uygulama ( Kivy ile ) gibi bütün ortamlara hükmedebiliyorsunuz.
+
+Pythonun gücünü şöyle bi örneklede kanıtlayabiliriz. Bildiğiniz üzere yukarada bahsettiğim gibi Python dilinin Google tarafından kullanıldığını biliyoruz. Peki nerede kullaniyor hiç düşündünüz mü ?
+
+Google’nin arama motoruna örneğin “Python” yazdığımda belki 1 milyon kaynak önümüze dökücektir. Bu işlemi mili saniyece sürece yanıt vermesini sağlayan pythondur.
+
+python ne ise yarar
+
+Python Dilinin Kullanım Alanları
+Python, nesne yönelimi, yorumlamalı, birimsel ve etikileşimli yüksek seviyeli bir programlama dilidir.
+
+Python bilim ve teknoloji bilgi sanayesinde önemli rol oynamaktadır. Yazılım teknolojileri özgür yazılım platformu her dalda ayrı compiler ile çalışan bu dil uluslar arası Askeri savunma ve hacking network sistemleri üzerinde uluslar arası bir öneme sahip programlama dilidir.
+
+Özetlemek gerekirse ;
+
+Yüksek seviyeli bir programlama dili.
+Bilim ve teknoloji bilgi sanayesinde önemli rolu var.
+Uluslar arası alanda etkili.
+Askeri savunma alanda etkili.
+Hacking network sistemleri üzerinde etkili.
+Bir dilden beklenenden daha fazlasını karşıladığını sizde görüyorsunuz.
+
+1991 Yılında çıktığını görüyoruz yani köklü bir dil olduğunu kanitliyor.
+
+Geliştirici durumu bir Yazılım vakfı tarafından ele alınmış aslında güzel bir durum arkadaşlar tamamen ücretsiz bir platform olduğunu kanıtlıyor.
+
+Tıp sisteminde güçlü ve dinamik olduğunu görüyoruz, gerçekten mutlu oluyor insan 🙂
+
+python nerede kullanilir
+
+Neden Python?
+İTÜ fizik bölümünden Berkin Malkoç, “Temel Bilimler ve Mühendislik Eğitiminde Programlama Dili Olarak Python” başlıklı makalesinde etraflı bir inceleme sunuyor. Kısa başlıklarla özetlersek:
+
+Açık kaynaklı. Kullanmakta özgürsünüz, bir şirkete bağlı olmak zorunda değilsiniz. Üstelik ücretsiz.
+Yapısı sade. Okuması ve yazması çok kolay. Çok hızlı öğrenilebiliyor.
+“Dinamik” dil. Yorumlayıcıyla çalışıyor. Çok karmaşık işlemleri basit komutlarla yaptırabilirsiniz.
+Etkileşimli. Yorumlayıcı penceresinde ardarda komutlar verip işlemler yapabilirsiniz.
+Aklınıza gelen bir fikri çabucak bir program oluşturarak deneyebilirsiniz.
+OOP’yi destekler ama mecbur tutmaz. Basit işler için class tanımlamak zorunda değilsiniz.
+Genel kullanım alanı geniş ve yazılım sanayiinde çok seviliyor. Bu sayede sürekli geliştiriliyor. Öğretici kaynak bulmak kolay.
+Bilimsel araştırmalarda çok yaygın olarak kullanılıyor. Çeşitli bilim dallarında kullanılmak üzere özel hazırlanmış kütüphaneleri var. Bu kütüphaneler kendini bu işe adamış profesyonel yazılım ekipleri tarafından hazırlanıyor, yoğun şekilde test ediliyor, ve yine açık kaynaklı.
+Python tamamen harika değil. Dinamik ve yorumlanan bir dil olması, ister istemez yavaş çalışmasını gerektiriyor. Yoğun hesaplama gerektiren işleri C veya Fortran’la yazılmış programlara yaptırmak daha doğru olur.
+
+dolasıyla şöyle , Python çeşitli ara çözümler de sunuyor. Sözgelişi, C ile yazılmış programlar Python koduna entegre edilebilir, epeyce hızlı Python programları hazırlanabilir. Meselâ bilimsel hesaplama için geliştirilen SciPy kütüphanesi böyle hazırlanmış.
+
+Dahası, birçok durumda, yavaş çalışan bir Python programı bile size zaman kazandırabilir. Meselâ C ile bir hafta uğraşarak yazabileceğiniz bir programı Python ile bir günde yazmanız mümkün olabilir.  Neden Python cevabı verilmiş oldu sanırım.
