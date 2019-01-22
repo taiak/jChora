@@ -1,6 +1,5 @@
 # weighted norm
 class WNorm
-    # calculate for per weight
     def self.norm(arr)
         sum = arr.inject(0) { |sum, value| sum + value  }
         sum / arr.size
