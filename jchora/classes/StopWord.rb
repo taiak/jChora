@@ -1,5 +1,5 @@
 class StopWord
-    require './classes/ReadFiles'
+    require './classes/FileReader'
     def self.read_stopwords(pattern = false)
         text = self.control_default_stopwords(pattern)
         self.pell_words(text).uniq  
@@ -52,7 +52,7 @@ class StopWord
       text = " "
       unless arr.empty?
         arr.each do |f|
-          text += ReadFiles.read_file(f)
+          text += FileReader.read_file(f)
         end
       end
       return text

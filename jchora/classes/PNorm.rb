@@ -1,4 +1,4 @@
-# ∥x∥ = [∑i(|xi|^p]^1/p
+# ∥x∥ = [∑i(|xi|^p)^1/p]
 class PNorm
     def self.norm(arr, p, evaluation = true)
         sum = arr.inject(0) { |sum, value| sum + (value.abs) ** p }

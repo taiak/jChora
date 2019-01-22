@@ -3,6 +3,7 @@ require './classes/Cosine.rb'
 # a class for saving model values
 class Model
     require 'fileutils'
+    java_import 'java.util.concurrent.Semaphore'
 
     attr_reader :metadata, :values, :name
 
@@ -68,7 +69,7 @@ class Model
 
     end
 
-    def dump_to_file
+    def to_dump
       create_model_dir
       filename = @model_folder + '/' + @name + '.model_dump'
       File.open(filename, 'w') do |f|
@@ -76,19 +77,24 @@ class Model
       end
     end
 
-    def distance(freq)
+    def distance(freq, thread_limit = 4)
+      thread_num = Semaphore.new(thread_limit)
+
       lock = Mutex.new
       result, ts = [], []
+      
       @values.each do |file_name, frequency|
+        thread_num.acquire
         ts<<Thread.new {
           arr = [file_name, Cosine.similarity(freq, frequency, @metadata)]
           lock.synchronize {
             result<<arr
           }
+          thread_num.release
         }
       end
+
       ts.each(&:join)
-      
       result.sort_by { |_, similarity| similarity}.reverse!
     end
 
